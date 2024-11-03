@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233291596516",
+    "project_id": "livepoints-a9571",
+    "storage_bucket": "livepoints-a9571.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233291596516:android:eb03aae5740ac7d94e22f1",
+        "android_client_info": {
+          "package_name": "com.example.livepoints"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhUw--cI0GBMpdDUqIFVgdEvViB1zfJ9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
