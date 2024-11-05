@@ -1,0 +1,96 @@
+<!-- File: app/src/main/res/layout/activity_registration.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Existing fields -->
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etIdentificationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Identification Number"
+            android:inputType="number" />
+
+        <!-- New fields for Latitude and Longitude -->
+        <EditText
+            android:id="@+id/etLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitude"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitude"
+            android:inputType="numberDecimal" />
+
+        <!-- Existing Image selection and registration buttons -->
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="Profile Image"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_border" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Profile Image"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+</ScrollView>

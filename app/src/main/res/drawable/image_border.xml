@@ -1,0 +1,8 @@
+<!-- File: app/src/main/res/drawable/image_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke
+        android:width="2dp"
+        android:color="@color/black" />
+    <solid android:color="#FFFFFF" />
+</shape>
