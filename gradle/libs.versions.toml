@@ -10,6 +10,11 @@ material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
 googleGmsGoogleServices = "4.4.2"
+playServicesLocationVersion = "21.3.0"
+play-services-maps = "18.1.0"
+picasso = "2.8"
+
+
 firebaseStorage = "21.0.1"
 firebaseFirestore = "25.1.1"
 firebaseAuth = "23.1.0"
@@ -26,6 +31,12 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+play-services-location-v2101 = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocationVersion" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "play-services-maps" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+
+
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

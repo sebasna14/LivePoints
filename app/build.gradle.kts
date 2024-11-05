@@ -50,4 +50,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+    implementation(libs.play.services.location.v2101)
+    implementation(libs.play.services.maps)
+    implementation(libs.picasso)  // Add this line
+
+
 }
